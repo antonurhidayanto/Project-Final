@@ -1,0 +1,250 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    background: #2C3F58;
+    width: 100%;
+    position: relative;
+      padding: 60px 0 0 0;
+    height: 60vh;
+}
+
+.title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    font-size: 42px;
+}
+
+
+a.btn.btn-danger.text-white.nav-link {
+    padding-left: 33px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 32px;
+    border-radius: 20px;
+}
+
+.gambar-1 {
+    z-index: 1;
+    position: relative;
+    top: 230px;
+    left: 400px;
+    width: 30%;
+    height: 350;
+  }
+
+
+  .gambar-2 {
+    z-index: 2;
+    position: relative;
+    top: 356px;
+    left: 42px;
+    width: 30%;
+    height: 35%;
+  }
+
+  .gambar-3{
+    z-index:3;
+    position: relative;
+    width: 100%;
+    left: 110px;
+    top: -85px;
+  }
+
+  .row-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .col-image{
+    position: relative;
+  }
+
+  .navbar-fixed-top{
+    background:#2C3F58 ;
+    height: 100px;
+  }
+
+  #content{
+    background:#EFF4FA;
+    background-size: cover;
+    background-position: top;
+  }
+.card.border-success{
+  border-radius: 40px;
+  overflow: hidden ;
+}
+
+ .card-header{
+  background:#2C3F58 !important;
+}
+
+  .card-header h6{
+    color: #FFCD29;
+  }
+  .card-header p{
+    font-size: 12px;
+  }
+
+  .card-text{
+    font-size: 12px;
+    color: grey;
+  }
+  span.card-text{
+    float: right;
+  }
+  span.card-text ins{
+
+    color: #0ACF83;
+    font-size: 20px;
+    vertical-align: sub;
+    text-decoration: none;
+  }
+  span.card-text del{
+    color: grey;
+    font-size: 14px;
+  }
+ 
+  .footer {
+  font-size: 14px;
+  background-color: #fff;
+  padding: 50px 0;
+  color: black;
+}
+
+.footer .footer-info .logo {
+  line-height: 0;
+  margin-bottom: 25px;
+}
+
+.footer .footer-info .logo img {
+  max-height: 40px;
+  margin-right: 6px;
+}
+
+.footer .footer-info .logo span {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: black;
+  text-decoration: none !important;
+}
+
+.footer .footer-info p {
+  font-size: 14px;
+  
+}
+
+.footer .social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  color: black;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.footer .social-links a:hover {
+  color:black;
+  border-color: black;
+}
+
+.footer h4 {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.footer .footer-links {
+  margin-bottom: 30px;
+}
+
+.footer .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .footer-links ul i {
+  padding-right: 2px;
+  color: rgba(0, 131, 116, 0.8);
+  font-size: 12px;
+  line-height: 0;
+}
+
+.footer .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+.footer .footer-links ul a {
+  color: black;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+  
+}
+
+.footer .footer-links ul a:hover {
+  color: black;
+}
+
+.footer .footer-contact p {
+  line-height: 26px;
+}
+
+.footer .copyright {
+  text-align: center;
+}
+
+.footer .credits {
+  padding-top: 4px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.footer .credits a {
+  color: black;
+}
+
+.pagination {
+  display: flex;
+  justify-content: right;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
