@@ -36,7 +36,7 @@ function index() {
                                     <a className="nav-link text-white " aria-current="page" href="/#">Tentang Toko Online</a>
                                 </li>
                                 <li className="nav-item ms-4">
-                                    <a href="/#" className="btn btn-danger text-white  nav-link">Masuk/Daftar</a>
+                                    <a href="/#" className="btn text-white nav-link">Masuk/Daftar</a>
                                 </li>
                             </ul>
                     </div>

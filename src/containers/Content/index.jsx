@@ -7,19 +7,7 @@ function index() {
   return (
     <div>
         <section id="content">
-            <Card/>   
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+            <Card/>
             <div id="pagination" className="pagination">
                 <nav aria-label="Page navigation example">
                     <ul className="pagination">
